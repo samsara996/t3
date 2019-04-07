@@ -1,0 +1,74 @@
+	body{
+		margin: 0;
+	}
+	header{
+		height: 80px;
+	}
+	header div{
+		display: inline-block;
+	}
+	header .label{
+	}
+	header .label-item{
+		padding-left: 10px;
+		line-height: 80px;
+	}
+	.label-item div{
+		vertical-align:middle;
+	}
+	header .select{
+		width: 140px;
+		height: 35px;
+	}
+	.select-time{
+		width: 230px;
+		height: 35px;
+	}
+
+
+	section{
+		display: -webkit-flex;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 74px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		
+	}
+	h3{
+		background-color: #63a0d4;
+		margin: 0;
+		font-weight: normal;
+		padding-left: 10px;
+		/*color: #ffffff;*/
+	}
+	.content{
+		position: relative;
+		width: 50%;
+		height: 50%;
+		
+	}
+	.content-context{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		right: 11px;
+		bottom: 10px;
+		border: 1px solid gray;
+	}
+	.charts{
+		position: absolute;
+		top:24px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	@media screen and (max-width: 1111px){
+		header{
+			height: 150px;
+		}
+		section {
+			top: 150px;
+		}
+	}
